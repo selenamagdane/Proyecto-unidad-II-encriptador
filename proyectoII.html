@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Encriptador</title>
+    <link rel="stylesheet" href="proyectoII.css"/>
+</head>
+<body>
+    <header class="titulo">
+        <h1>Encripta el Mensaje</h1>
+    </header>
+        <main class="grid">
+            <section class="contai">
+                <div id="message">
+                    <label class="mensaje"  for="message">Mensaje secreto</label><br>
+                    <textarea id="msg" name="textarea" maxlength="280" placeholder="Escribe o pega tu mensaje secreto aquí"></textarea><br>
+                    <span id="counter">0/280</span>
+                </div>
+                <div>
+                    <label class="clave" for="offset">Clave secreta</label><br>
+                    <input id="offset" type="number" min="-100" max="100" placeholder="Ingresa tu clave secreta aquí" name="offset" step="1">
+                </div>
+                <div class="btnGroup"><br>
+                    <button id="botoncifrar" name="cipher" type="button">
+                        <i class="fas fa-lock"></i> Cifrar
+                    </button>
+                    <button id="botondecifrar" name="decipher" type="button">
+                     <i class="fas fa-lock-open"></i> Descifrar
+                    </button>
+                </div>
+            </section><br>
+
+          <section class="modalContainer containerClose">
+            <div id="messageResult" class="modal modalClose">
+              <p id="close"><i class="fas fa-times"></i></p>
+              <label for="messageResult" id="lblMsgResult">Su mensaje es</label>
+              <textarea id="msgResult" name="textarea" readonly></textarea>
+              <button id="copy" name="copy" type="button">
+                <i class="fas fa-copy">Copiar</i> 
+              </button>
+            </div>
+          </section>
+        </main>
+
+        <footer>
+          <h4>Contáctanos:</h4>
+          <a href="934501329"> Llámanos</a>
+          <h4>Nuestro correo electrónico:</h4>
+          <a href="Encriptadoresmensajes@gmail.com">Mándanos un correo aquí</a>
+          <br>
+          <p> &copy; Esta página cumple con derechos de autor</p>
+        </footer>
+        <script src="encriptador.js"></script>
+    </div>
+</body>
+</html>
+
