@@ -18,7 +18,7 @@ body{
     color: aliceblue;
     background-color: rgb(29, 12, 32);
     width: 400px;
-    height: 90px;
+    height: 70px;
     align-items: center;
   display: flex;
   justify-content: center;
@@ -31,9 +31,9 @@ body{
 .grid {
     text-align: center;
     background-color: rgb(180, 126, 189);
-    width: 1100px;
+    width: 1000px;
     margin: 0 auto;
-    padding: 30px;
+    padding: 20px;
     position: absolute;
     top: 50%;
     left: 50%;
