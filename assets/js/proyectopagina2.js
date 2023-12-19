@@ -12,3 +12,5 @@
             // Mostrar un mensaje o realizar alguna acción adicional
             alert("Texto copiado al portapapeles: " + textarea.value);
         });
+
+
